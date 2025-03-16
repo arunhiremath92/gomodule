@@ -8,3 +8,8 @@ func Hello(name string) string {
     message := fmt.Sprintf("Hi, %v. Welcome!", name)
     return message
 }
+
+func HelloSecondVersion(name string) string {
+    message := fmt.Sprintf("This was second Version of Hello, and welcome to Go Lang Modules %v", name)
+    return message
+}
