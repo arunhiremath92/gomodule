@@ -13,3 +13,8 @@ func HelloSecondVersion(name string) string {
     message := fmt.Sprintf("This was second Version of Hello, and welcome to Go Lang Modules %v", name)
     return message
 }
+
+func HelloThirdVersion(name string) string {
+    message := fmt.Sprintf("This was second Version of Hello, and welcome to Go Lang Modules %v", name)
+    return message
+}
